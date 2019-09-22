@@ -1,5 +1,13 @@
 {
   "language": "ts",
-  "collection": ["@nestjs/schematics"],
-  "sourceRoot": "src"
+  "collection": [
+    "@nestjs/schematics"
+  ],
+  "sourceRoot": "src",
+  "projects": {
+    "testlib": {
+      "root": "libs/testlib",
+      "sourceRoot": "libs/testlib/src"
+    }
+  }
 }
